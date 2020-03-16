@@ -1,0 +1,8 @@
+body{
+	background-image: linear-gradient(to right,#DCF7F7,#CCF8F9,#B6F5F7,#9DF6F8,#BDF8F9,#D9F6F7);
+}
+#img1 img{
+	margin-top: 20px;
+	border: 5px solid white;
+	border-radius: 2px;
+}
