@@ -128,3 +128,4 @@ btn7.addEventListener('click', function() {
     p.setAttribute('style', 'font-size:30px;font-weight:bold;font-style:italic;color:red;');
 })
 
+//THATS THE END----
