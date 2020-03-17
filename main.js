@@ -24,8 +24,8 @@ VacationRental.prototype.available = function() {
 };
 
 //I created 2 instances of the rental properties with reference to the class VacationRental as defined above
-let rental = new VacationRental('World famous Seashell House', 750, 4.5, 'Casa Caracol', 6, 'Available', ['Scenery', 'Shell-shape']);
-let rental1 = new VacationRental('Underground Hygge', 350, 4.2, 'Orondo', 1, 'Not Available', ['View', 'Exoticness']);
+let rental = new VacationRental('World famous Seashell House', 750, 4.5, 'Casa Caracol', 6, 'Not Available', ['Scenery', 'Shell-shape']);
+let rental1 = new VacationRental('Underground Hygge', 350, 4.2, 'Orondo', 1, 'Available', ['View', 'Exoticness']);
 
 //So the next part is to define another object with special Rate which is inheriting almost everything from VacationRental.
 //I thought of giving the second vacation spot the reduced price and because of this offer it is sold out
